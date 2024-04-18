@@ -7,7 +7,7 @@ import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAAx_knJ_qqxPkJQ_xoIZnxt_c6gb6Wdys",
+  apiKey: import.meta.env.VITE_FIREBASE_KEY,
   authDomain: "todoapp-eeeb7.firebaseapp.com",
   projectId: "todoapp-eeeb7",
   storageBucket: "todoapp-eeeb7.appspot.com",
